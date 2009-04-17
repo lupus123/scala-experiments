@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<layout type="XY-Layout">
+    <x-size>250</x-size>
+    <y-size>250</y-size>
+    <background-color>#ff6699</background-color>
+</layout>
