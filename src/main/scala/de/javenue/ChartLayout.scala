@@ -29,7 +29,6 @@ class ChartLayout(val format: GraphicsFormat.Value, val xml: Elem, val outputPat
 abstract class Layout
 
 case class XYLayout(xml: Elem) extends Layout {
-
   val x_offset = 50
   val y_offset = 50
 
@@ -48,6 +47,10 @@ case class XYLayout(xml: Elem) extends Layout {
     // Background
     g2d.setColor(new Color(238, 238, 238, 255))
     g2d.fillRect(0, 0, x_size, y_size);
+
+    // Draw area
+    g2d.setColor(new Color(255, 255, 255, 255))
+    g2d.fillRect(x3, y3, x_size - 2 * x_offset, y_size - 2 * y_offset)
 
     // X-Scale
     g2d.setColor(new Color(128, 128, 128, 255))
