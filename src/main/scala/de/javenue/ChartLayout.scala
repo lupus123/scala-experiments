@@ -8,7 +8,7 @@ import java.io.File
 import javax.imageio.ImageIO
 
 /**
- * Creates a chart layout from 
+ * Creates a chart layout and returns a buffered image from an XML description.
  */
 class ChartLayout(val format: GraphicsFormat.Value, val xml: Elem, val outputPath: File) {
   val layout = (xml \\ "@type").text
@@ -23,7 +23,9 @@ class ChartLayout(val format: GraphicsFormat.Value, val xml: Elem, val outputPat
   private def write(image: BufferedImage) = ImageIO.write(image, format.toString, outputPath)
 }
 
-
+/*
+ * TODO Description
+ */
 private case class XYLayout(xml: Elem) {
   val x_size = (xml \ "x-size").text.toInt
   val y_size = (xml \ "y-size").text.toInt
