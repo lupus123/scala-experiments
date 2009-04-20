@@ -10,17 +10,17 @@ import javax.imageio.ImageIO
 /**
  * Creates a chart layout and returns a buffered image from an XML description.
  */
-class ChartLayout(val format: GraphicsFormat.Value, val xml: Elem, val outputPath: File) {
+class ChartLayout(val format: String, val xml: Elem, val outputPath: File) extends LayoutFormat {
   val layout = (xml \\ "@type").text
   val image = process(layout)
   write(image)
 
   private def process(layout: String): BufferedImage = layout match {
-    case "XY-Layout" => new XYLayout(xml).create
+    case XY_LAYOUT => new XYLayout(xml).create
     case _ => new BufferedImage(10, 10, BufferedImage.TYPE_INT_RGB)
   }
 
-  private def write(image: BufferedImage) = ImageIO.write(image, format.toString, outputPath)
+  private def write(image: BufferedImage) = ImageIO.write(image, format, outputPath)
 }
 
 /*
@@ -28,7 +28,7 @@ class ChartLayout(val format: GraphicsFormat.Value, val xml: Elem, val outputPat
  */
 abstract class Layout
 
-case class XYLayout(xml: Elem) extends Layout {
+case class XYLayout(xml: Elem) extends Layout with Colors {
   val x_offset = 50
   val y_offset = 50
 
@@ -54,6 +54,7 @@ case class XYLayout(xml: Elem) extends Layout {
 
     // X-Scale
     g2d.setColor(new Color(128, 128, 128, 255))
+    g2d.setColor(RED)
     g2d.drawLine(x1, y1, x2, y2)
 
     // Y-Scale

@@ -3,11 +3,11 @@ package de.javenue
 /**
  * All supported Graphics Formats.
  */
-object GraphicsFormat extends Enumeration {
-  type GraphicsFormat = Value
+trait GraphicsFormat {
 
   // PNG-Grafikformat
-  val PNG = Value("png")
+  val PNG = "png"
+
   // BMP-Grafikformat
-  val BMP = Value("bmp")
+  val BMP = "bmp"
 }
