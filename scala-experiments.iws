@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scala-experiments.iws" afterPath="$PROJECT_DIR$/scala-experiments.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala" />
+      <change type="DELETED" beforePath="D:\svn_home\scala-experiments\src\main\scala\de\javenue\Colors.scala" afterPath="" />
     </list>
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -65,7 +67,23 @@
       <file leaf-file-name="ChartLayout.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4172662">
+            <state line="38" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.39252338">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/test.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chart.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +92,7 @@
       <file leaf-file-name="Offset.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+            <state line="9" column="6" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +101,7 @@
       <file leaf-file-name="ChartLayoutTest.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+            <state line="20" column="14" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colors.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Colors.scala">
+      <file leaf-file-name="Color.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+            <state line="14" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -454,13 +472,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22323462" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
@@ -469,7 +487,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -485,7 +503,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Enumerations -&gt; Traits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Traits" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -499,10 +517,11 @@
     <MESSAGE value="initialer commit&#10;&#10;" />
     <MESSAGE value="TestCase für ersten Serialisierungsversuch." />
     <MESSAGE value="Kommentierung &amp; TODO" />
-    <MESSAGE value="&#10;# Brief commit desciption here&#10;&#10;# Full commit description here (comment lines starting with '#' will not be included)&#10;&#10;" />
     <MESSAGE value="initialer commit" />
     <MESSAGE value="Das erzeugte Bild nähert sich langsam einem XY-Layout an!&#10;&#10;" />
     <MESSAGE value="Refactoring Enumerations -&gt; Traits" />
+    <MESSAGE value="&#10;# Brief commit desciption here&#10;&#10;# Full commit description here (comment lines starting with '#' will not be included)&#10;&#10;" />
+    <MESSAGE value="Using Traits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -544,9 +563,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Colors.scala">
+    <entry file="file://$PROJECT_DIR$/layout/test-layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+        <state line="3" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -558,18 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/test-layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/GraphicsFormat.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
@@ -577,23 +584,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+        <state line="9" column="6" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+        <state line="14" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4172662">
+        <state line="38" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.39252338">
           <folding />
         </state>
       </provider>
