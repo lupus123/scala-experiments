@@ -28,10 +28,8 @@ class ChartLayout(val format: String, val xml: Elem, val outputPath: File) exten
  */
 abstract class Layout
 
-case class XYLayout(xml: Elem) extends Layout with Colors {
-  val x_offset = 50
-  val y_offset = 50
-
+case class XYLayout(xml: Elem) extends Layout with Colors with Offset {
+ 
   val x_size = (xml \ "x-size").text.toInt
   val y_size = (xml \ "y-size").text.toInt
   val background_color = (xml \ "background-color").text

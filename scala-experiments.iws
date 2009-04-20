@@ -2,12 +2,9 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala" afterPath="$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Colors.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/GraphicsFormat.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/GraphicsFormat.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scala-experiments.iws" afterPath="$PROJECT_DIR$/scala-experiments.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala" />
     </list>
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -68,7 +65,16 @@
       <file leaf-file-name="ChartLayout.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="269" selection-end="269" vertical-scroll-proportion="0.03057554">
+            <state line="30" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4172662">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offset.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="3" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,15 +111,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/GraphicsFormat.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="6" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/test-layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -488,7 +485,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Das erzeugte Bild nähert sich langsam einem XY-Layout an!&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Enumerations -&gt; Traits" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -505,6 +502,7 @@
     <MESSAGE value="&#10;# Brief commit desciption here&#10;&#10;# Full commit description here (comment lines starting with '#' will not be included)&#10;&#10;" />
     <MESSAGE value="initialer commit" />
     <MESSAGE value="Das erzeugte Bild nähert sich langsam einem XY-Layout an!&#10;&#10;" />
+    <MESSAGE value="Refactoring Enumerations -&gt; Traits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -546,9 +544,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/test-layout.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Colors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+        <state line="15" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -558,9 +563,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Colors.scala">
+    <entry file="file://$PROJECT_DIR$/layout/test-layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+        <state line="3" column="15" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -579,16 +584,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="8" column="3" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="269" selection-end="269" vertical-scroll-proportion="0.03057554">
+        <state line="30" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4172662">
           <folding />
         </state>
       </provider>
