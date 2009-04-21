@@ -42,6 +42,9 @@ class XYLayout(xml: Elem) extends Layout with Offset with Colored {
   }
 }
 
+/**
+ * Companion object for class XYLayout.
+ */
 object XYLayout {
   def apply(xml: Elem) : BufferedImage = new XYLayout(xml).draw
 }
