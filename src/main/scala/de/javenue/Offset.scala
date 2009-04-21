@@ -1,11 +1,9 @@
 package de.javenue
 
 /**
- * Created by IntelliJ IDEA.
- * User: BCK
- * Date: 20.04.2009
- * Time: 10:15:48
- * To change this template use File | Settings | File Templates.
+ * Defines default drawing offsets.
+ *
+ * @author Lutz Beckmann
  */
 trait Offset {
 

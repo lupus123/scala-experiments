@@ -1,7 +1,9 @@
 package de.javenue
 
 /**
- * All supported Graphics Formats.
+ * Defines all supported graphics formats.
+ *
+ * @author Lutz Beckmann
  */
 trait GraphicsFormat {
 

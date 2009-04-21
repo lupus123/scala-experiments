@@ -8,6 +8,8 @@ import javax.imageio.ImageIO
 
 /**
  * Creates a chart layout and returns a buffered image from a XML description.
+ *
+ * @author Lutz Beckmann
  */
 class ChartLayout(val format: String, val xml: Elem, val outputPath: File) extends LayoutFormat {
   val layout = (xml \\ "@type").text
@@ -24,6 +26,8 @@ class ChartLayout(val format: String, val xml: Elem, val outputPath: File) exten
 
 /*
  * Defines an abstract layout and draws a BufferedImage.
+ *
+ * @author Lutz Beckmann
  */
 trait Layout {
   def draw: BufferedImage

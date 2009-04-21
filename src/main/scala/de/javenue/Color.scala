@@ -4,13 +4,10 @@ package de.javenue
 import java.awt.{Graphics2D, Color}
 
 /**
- * Created by IntelliJ IDEA.
- * User: BCK
- * Date: 20.04.2009
- * Time: 09:35:58
- * To change this template use File | Settings | File Templates.
+ * Defines useful Colors.
+ *
+ * @author Lutz Beckmann
  */
-
 trait Colored {
 
   // light gray color
@@ -21,5 +18,4 @@ trait Colored {
 
   // very nice red color
   val RED = new Color(196, 128, 128, 255)
-
 }

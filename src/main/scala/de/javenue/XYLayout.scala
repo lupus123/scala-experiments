@@ -5,9 +5,9 @@ import java.awt.image.BufferedImage
 import xml.Elem
 
 /**
- * Implementation of the abstract class Layout.
- * Defines 
- * User: bck
+ * Implementation class of the abstract class Layout.
+ *  
+ * @author Lutz Beckmann
  */
 class XYLayout(xml: Elem) extends Layout with Offset with Colored {
   val x_size = (xml \ "x-size").text.toInt

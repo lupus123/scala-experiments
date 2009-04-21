@@ -5,8 +5,9 @@ import java.awt.image.BufferedImage
 import java.awt.{Color, Graphics2D}
 
 /**
- * Created by IntelliJ IDEA.
- * User: BCK
+ * Declaring an abstract chart object.
+ *
+ * @author Lutz Beckmann
  */
 trait Chart extends Drawing  {
   def image: BufferedImage
@@ -14,6 +15,11 @@ trait Chart extends Drawing  {
   def g2d: Graphics2D
 }
 
+/**
+ * Declaring a concrete xy chart object.
+ *
+ * @author Lutz Beckmann
+ */
 class XYChart(val length: Int, val height: Int) extends Chart {
 
   var image: BufferedImage = new BufferedImage(length, height, BufferedImage.TYPE_INT_ARGB)
