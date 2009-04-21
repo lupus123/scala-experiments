@@ -1,6 +1,8 @@
 package de.javenue
 
 /**
- * Defining a d
+ * Defining a ...
+ *
+ * @author Lutz Beckmann
  */
 class Point(val x: Int, val y: Int)
