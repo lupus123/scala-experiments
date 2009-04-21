@@ -1,8 +1,7 @@
 package de.javenue
 
 
-import java.awt.{Color}
-
+import java.awt.{Graphics2D, Color}
 
 /**
  * Created by IntelliJ IDEA.
@@ -22,7 +21,5 @@ trait Colored {
 
   // very nice red color
   val RED = new Color(196, 128, 128, 255)
-
-  
 
 }

@@ -2,11 +2,13 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Drawing.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scala-experiments.iws" afterPath="$PROJECT_DIR$/scala-experiments.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Point.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala" />
-      <change type="DELETED" beforePath="D:\svn_home\scala-experiments\src\main\scala\de\javenue\Colors.scala" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/javenue/XYLayout.scala" />
     </list>
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -64,71 +66,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChartLayout.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
+      <file leaf-file-name="XYLayout.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/XYLayout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.39252338">
+            <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/test.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Chart.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="16" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offset.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
+      <file leaf-file-name="ChartLayout.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChartLayoutTest.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LayoutFormat.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Color.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphicsFormat.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/GraphicsFormat.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="18" column="27" selection-start="550" selection-end="550" vertical-scroll-proportion="0.41906476">
               <folding />
             </state>
           </provider>
@@ -262,7 +221,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="output" />
+          <option name="myItemId" value="layout" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -288,17 +247,17 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="291" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="148" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="148" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="132" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="132" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="239" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="519" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="806" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="519" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="127" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="132" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -315,8 +274,8 @@
     <property name="options.lastSelected" value="com.intellij.openapi.vcs.configurable.VcsManagerConfigurable$4" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="ScalaTest.ChartLayoutTest">
     <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
@@ -412,7 +371,13 @@
       <setting name="path" value="de.javenue.ChartLayoutTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1898" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method>
         <option name="Make" value="true" />
@@ -473,7 +438,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.014806378" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -503,7 +468,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Traits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experimentals with Traits" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -522,6 +487,7 @@
     <MESSAGE value="Refactoring Enumerations -&gt; Traits" />
     <MESSAGE value="&#10;# Brief commit desciption here&#10;&#10;# Full commit description here (comment lines starting with '#' will not be included)&#10;&#10;" />
     <MESSAGE value="Using Traits" />
+    <MESSAGE value="Experimentals with Traits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,9 +522,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Programme/Java/jdk1.6.0_07/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -570,9 +536,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="22" column="41" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Point.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -584,42 +557,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Offset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Drawing.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="13" column="6" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Color.scala">
+    <entry file="jar://C:/Programme/Java/jdk1.6.0_07/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/de/javenue/ChartLayoutTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+        <state line="11" column="6" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/LayoutFormat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/Chart.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+        <state line="16" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/XYLayout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/javenue/ChartLayout.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.39252338">
+        <state line="18" column="27" selection-start="550" selection-end="550" vertical-scroll-proportion="0.41906476">
           <folding />
         </state>
       </provider>
