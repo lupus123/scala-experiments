@@ -15,9 +15,7 @@ class ChartLayout(val format: String, val xml: Elem, val outputPath: File) exten
   this.write(image)
 
   private def process(layout: String): BufferedImage = layout match {
-    case XY_LAYOUT =>
-      val layout = new XYLayout(xml)
-      layout.draw
+    case XY_LAYOUT => XYLayout(xml)
     case _ => new BufferedImage(10, 10, BufferedImage.TYPE_INT_RGB)
   }
 
