@@ -1,6 +1,5 @@
 package de.javenue
 
-
 import java.awt.Color
 
 /**
