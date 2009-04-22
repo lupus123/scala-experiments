@@ -6,7 +6,7 @@ import org.scalatest.Suite
 import xml.XML
 
 /**
- * ScalaTest
+ * ScalaTest Case
  *
  * @author Lutz Beckmann
  */
