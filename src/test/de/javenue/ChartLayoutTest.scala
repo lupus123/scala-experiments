@@ -7,7 +7,8 @@ import xml.XML
 
 /**
  * ScalaTest
- * @TODO  Description, Parametrization
+ *
+ * @author Lutz Beckmann
  */
 class ChartLayoutTest extends Suite with GraphicsFormat {
 
