@@ -1,7 +1,7 @@
 package de.javenue
 
 /**
- * Defining a ....
+ * Defining a ...
  *
  * @author Lutz Beckmann
  */
